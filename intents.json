@@ -1,0 +1,141 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi there",
+              "How are you",
+              "Is anyone there?",
+              "Hey",
+              "Hola",
+              "Hello",
+              "Good day",
+              "Hey",
+              "Ekse",
+              "Hi"
+          ],
+          "responses": [
+              "Hi stranger",
+              "Yebo yes, how can I help",
+              "Ey watsupp",
+              "Ekse Hoezit",
+              "Hola",
+              "Hey dude",
+              "You again"
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Bye",
+              "See you later",
+              "Goodbye",
+              "Ok bye",
+              "Bye Bye"
+          ],
+          "responses": [
+              "See you!",
+              "Have a nice day",
+              "Sure Bye",
+              "Later dude",
+              "Sayoonara",
+              "Peace out",
+              "Sure dude",
+              "Ciao"
+          ]
+      },
+      {
+          "tag": "news",
+          "patterns": [
+              "news about covid",
+              "covid news",
+              "news"
+          ],
+          "responses": [
+              "Sure dude"
+          ]
+      },
+      {
+          "tag": "noanswer",
+          "patterns": [
+              "bye",
+              "no"
+          ],
+          "responses": [
+              "Sorry, can't understand you",
+              "Please give me more info",
+              "Not sure I understand",
+              "I am still here dude",
+              "bye",
+              "no"
+          ]
+      },
+      {
+          "tag": "options",
+          "patterns": [
+              "What do you do",
+              "How can you help",
+              "What do you know",
+              "What is your purpose",
+              "How can you help"
+          ],
+          "responses": [
+              "I can tell you about covid",
+              "I can give you interesting facts about covid"
+          ]
+      },
+      {
+          "tag": "covid19",
+          "patterns": [
+              "info",
+              "corona",
+              "covid",
+              "What can you tell me about covid",
+              "corona info",
+              "Tell me about corona",
+              "What about covid"
+          ],
+          "responses": [
+              "Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age. The best way to prevent and slow down transmission is to be well informed about the disease and how the virus spreads. Protect yourself and others from infection by staying at least 1 metre apart from others, wearing a properly fitted mask, and washing your hands or using an alcohol-based rub frequently. Get vaccinated when it\u00e2\u20ac\u2122s your turn and follow local guidance.The virus can spread from an infected person\u00e2\u20ac\u2122s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols. It is important to practice respiratory etiquette, for example by coughing into a flexed elbow, and to stay home and self-isolate until you recover if you feel unwell."
+          ]
+      },
+      {
+          "tag": "facts",
+          "patterns": [
+              "corona Facts",
+              "covid Facts",
+              "Give me some facts about covid",
+              "Give me some facts about corona",
+              "SA Facts",
+              "corona interesting facts",
+              "corona facts",
+              "covid interesting facts",
+              "Tell me something interesting"
+          ],
+          "responses": [
+              "The most commonly reported symptoms of COVID-19 include fever,cough and shortness of breath. However, as the disease has spread around the world, healthcare providers have noticed a few unusual symptoms, including loss of smell (anosmia) and decreased sense of taste (ageusia).",
+              " In 2003, SARS, or severe acute respiratory syndrome, spread from Asia throughout the world, sickening more than 8,000 people and killing more than 700 over a six-month period. The virus that caused SARS (SARS-CoV) is similar to the one that causes COVID-19\u00e2\u20ac\u201dboth are types of coronaviruses\u00e2\u20ac\u201dbut researchers have recently discovered an important difference that may explain why the new coronavirus is so hard to stop: SARS-CoV-2 (the virus that causes COVID-19) binds 10 to 20 times more tightly to human cells than SARS-CoV (the virus responsible for SARS).",
+              "It has been nearly two years since the novel coronavirus, SARS-CoV-2, caused an outbreak of respiratory disease (COVID-19) and pneumonia in Wuhan, China. Since then, SARS-CoV-2 has spread around the world, sickening more than 270 million people and killing 5.3 million. By now, you probably know more about viruses than you ever wanted to. But we are still learning more every day. Find out what doctors know about SARS-CoV-2 and the disease it causes, COVID-19, including the strange array of symptoms and how it's treated.   senior woman smelling coffee or tea cup  1. Anosmia (loss of smell) is a symptom. The most commonly reported symptoms of COVID-19 include fever, cough and shortness of breath. However, as the disease has spread around the world, healthcare providers have noticed a few unusual symptoms, including loss of smell (anosmia) and decreased sense of taste (ageusia). In South Korea, 30% of people who tested positive for the virus said that loss of smell was their first major symptom. In Germany, more than 2 out of 3 confirmed cases included loss of smell and taste. Doctors recommend that anyone who experiences a sudden loss of smell or taste self-isolate and contact their healthcare provider.\n    Transmission electron microscope image of SARS-CoV-2\u00e2\u20ac\u201dthe coronavirus that causes COVID-19\u00e2\u20ac\u201demerging from the surface of cells cultured in the lab. Credit: National Institute of Allergy and Infectious Diseases-Rocky Mountain Laboratories, NIH   2. SARS-CoV-2 binds tightly to human cells.  In 2003, SARS, or severe acute respiratory syndrome, spread from Asia throughout the world, sickening more than 8,000 people and killing more than 700 over a six-month period. The virus that caused SARS (SARS-CoV) is similar to the one that causes COVID-19\u00e2\u20ac\u201dboth are types of coronaviruses\u00e2\u20ac\u201dbut researchers have recently discovered an important difference that may explain why the new coronavirus is so hard to stop: SARS-CoV-2 (the virus that causes COVID-19) binds 10 to 20 times more tightly to human cells than SARS-CoV (the virus responsible for SARS).mother taking temperature of her crying baby   3. Coronavirus can make babies seriously ill.  Compared to adults, children appear much less likely to get sick if they contract the novel coronavirus. However, the very young (less than 1 year) appear to be more vulnerable to serious illness than older children.",
+              "The CDC estimates up to 40% of infected individuals do not experience symptoms (asymptomatic). That\u00e2\u20ac\u2122s good news for the affected individuals, but bad news for public health because asymptomatic people can unintentionally spread the virus to others. This is why vaccination is so important."
+          ]
+      },
+      {
+          "tag": "user",
+          "patterns": [
+              "youre crazy"
+          ],
+          "responses": [
+              "yes i am"
+          ]
+      },
+      {
+          "tag": "tell me your name",
+          "patterns": [
+              "covi"
+          ],
+          "responses": [
+              "covi"
+          ]
+      }
+  ]
+}
